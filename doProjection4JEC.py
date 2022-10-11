@@ -172,7 +172,6 @@ def roll_out4D(hist4D,outfile):
     h_resp2.Write()
     h_resp3.Write()
     
-    
     nBins0 = h_resp0.GetNbinsX()
     nBins1 = h_resp1.GetNbinsX()
     nBins3 = h_resp3.GetNbinsX()
@@ -258,6 +257,10 @@ if __name__ == '__main__':
 
     if not options.inputFILE:
         print("inputFILE is not defined, exit.")
+        sys.exit()
+
+    if not options.outputFILE:
+        print("outputFILE is not defined, exit.")
         sys.exit()
 
     f_in = TFile(str(options.inputFILE))
