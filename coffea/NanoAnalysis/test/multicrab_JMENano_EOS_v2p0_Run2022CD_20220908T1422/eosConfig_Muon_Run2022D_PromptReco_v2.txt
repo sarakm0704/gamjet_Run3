@@ -1,0 +1,7 @@
+{
+  "eospath": [
+    "/eos/cms/store/group/phys_jetmet/JMENanoRun3/v2p0/Muon/JMENanoRun3_v2p0_Run2022D-PromptReco-v2/220905_183430/0000/"
+  ], 
+  "name": "Muon_Run2022D_PromptReco_v2", 
+  "dataVersion": "data"
+}

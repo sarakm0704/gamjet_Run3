@@ -1,0 +1,11 @@
+{
+  "eospath": [
+    "/eos/cms/store/group/phys_jetmet/JMENanoRun3/v2p1/EGamma/JMENanoRun3_v2p1_Run2022C-PromptReco-v1/220918_180552/0000/",
+    "/eos/cms/store/group/phys_jetmet/JMENanoRun3/v2p1/EGamma/JMENanoRun3_v2p1_Run2022C-PromptReco-v1/220918_180552/0001/",
+    "/eos/cms/store/group/phys_jetmet/JMENanoRun3/v2p1/EGamma/JMENanoRun3_v2p1_Run2022C-PromptReco-v1/220918_180552/0002/",
+    "/eos/cms/store/group/phys_jetmet/JMENanoRun3/v2p1/EGamma/JMENanoRun3_v2p1_Run2022C-PromptReco-v1/220918_180552/0003/",
+    "/eos/cms/store/group/phys_jetmet/JMENanoRun3/v2p1/EGamma/JMENanoRun3_v2p1_Run2022C-PromptReco-v1/220918_180552/0004/"
+  ], 
+  "name": "EGamma_Run2022C_PromptReco_v1", 
+  "dataVersion": "data"
+}
