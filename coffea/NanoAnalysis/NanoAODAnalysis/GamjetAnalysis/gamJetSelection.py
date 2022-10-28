@@ -5,7 +5,7 @@ import os
 import re
 import math
 
-from  METCleaning import METCleaning
+from METCleaning import METCleaning
 from JetCorrections import JEC
 
 import tools.Print
@@ -58,10 +58,12 @@ def leptonSelection(events, LEPTONFLAVOR):
 #        return None
 #    return None
 
+    PT = 10
     muons = events.Muon
-    #TODO
-    muons = muons[muons.pt > PT]
     electrons = events.Electron
+
+    muons = muons[muons.pt > PT]
+    electrons = electrons[electrons.pt > PT]
 
     lepVeto = (ak.num(muons.pt, axis=1) == 0 ) & (ak.num(electrons.pt, axis=1) == 0)
 
