@@ -40,8 +40,8 @@ import Btag
 import QGL
 import aux
 
-import ZbSelection as selection
-import ZbHistograms as Histograms
+import gamJetSelection as selection
+import gamJetHistograms as Histograms
 
 #LEPTONFLAVOR = 11
 LEPTONFLAVOR = 13
@@ -268,13 +268,13 @@ def main():
     blacklist = ["Muon","DYJets"]
     whitelist = ["EGamma"]
 
-    if LEPTONFLAVOR == 11:
-        lepton+="Electron"
+#    if LEPTONFLAVOR == 11:
+#        lepton+="Electron"
 #        whitelist = ["DoubleEG","EGamma","DYJets","TTJet"]
-        whitelist = ["DoubleEG","EGamma","TTJet"]
+#        whitelist = ["DoubleEG","EGamma","TTJet"]
 
-    if LEPTONFLAVOR == 13:
-        lepton+="Muon"
+#    if LEPTONFLAVOR == 13:
+#        lepton+="Muon"
 #        whitelist = ["Muon","DYJets","TTJet"]
 #        whitelist = ["Muon"]
 #        whitelist = ["DYJets"]
